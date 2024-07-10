@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel Navigation</title>
+  <link rel="stylesheet" href="./stylesheet.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+</head>
+<body>
+  <div class="site-wrap">
+    <div class="panel-wrap animate--none">
+      <div class="panel" data-x-pos="0" data-y-pos="0">
+        <span class="panel__nav panel__nav--up js-up">destress</span>
+        <span class="panel__nav panel__nav--left js-left">structs</span>
+        <span class="panel__nav panel__nav--right js-right">algos</span>
+        <span class="panel__nav panel__nav--down js-down">about us</span>
+        <h1>techtide.</h1>
+        <p>
+          A beginner friendly hub for DSA concepts and code.
+        </p>
+        <div id="container" class="face-animation-container">
+          <button class="face-button">
+            <span class="face-container">
+              <span class="eye left"></span>
+              <span class="eye right"></span>
+              <span class="mouth"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+      <div class="panel" data-x-pos="0" data-y-pos="1">
+        <span class="panel__nav panel__nav--down js-down">MAIN</span>
+        <h1>Destressssss</h1>
+      </div>
+      <div class="panel" data-x-pos="-1" data-y-pos="0">
+        <span class="panel__nav panel__nav--right js-right">MAIN</span>
+        <h1>Structs</h1>
+      </div>
+      <div class="panel" data-x-pos="1" data-y-pos="0">
+        <span class="panel__nav panel__nav--left js-left">MAIN</span>
+        <div class="algo-menu">
+          <ul>
+            <li>
+              <a href="#sorting" class="js-toggle-submenu">Sorting Algorithms</a>
+              <div class="submenu hidden">
+                <ul>
+                  <li><a href="#selection-sort">Selection Sort</a></li>
+                  <li><a href="#bubble-sort">Bubble Sort</a></li>
+                  <li><a href="#insertion-sort">Insertion Sort</a></li>
+                  <li><a href="#merge-sort">Merge Sort</a></li>
+                  <li><a href="#quick-sort">Quick Sort</a></li>
+                  <li><a href="#heap-sort">Heap Sort</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#searching" class="js-toggle-submenu">Searching Algorithms</a>
+              <div class="submenu hidden">
+                <ul>
+                  <li><a href="#asdfgh-sort">asdfgh Sort</a></li>
+                  <li><a href="#sdfg-sort">sdfg Sort</a></li>
+                  <li><a href="#sxdcfvg-sort">sxdcfvg Sort</a></li>
+                  <li><a href="#merge-sort">sdfvgbh Sort</a></li>
+                  <li><a href="#sdfvgbh-sort">wexcrtv Sort</a></li>
+                  <li><a href="#exrctvby-sort">exrctvby Sort</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#graph">Graph Algorithms</a></li>
+            <li><a href="#trees">Tree Algorithms</a></li>
+            <li><a href="#greedy">Greedy Algorithms</a></li>
+            <li><a href="#dynamic-programming">Dynamic Programming</a></li>
+          
+          </ul>
+        </div>
+      </div>
+      <div class="panel" data-x-pos="0" data-y-pos="-1">
+        <span class="panel__nav panel__nav--up js-up">MAIN</span>
+        <h1>About us <3</h1>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./intro_page.js"></script>
+  <script src="./icon_element.js"></script>
+</body>
+</html>
